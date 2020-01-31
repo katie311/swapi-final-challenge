@@ -12,20 +12,22 @@ export default function Planets({ data }) {
                 {data.map((planets, i) => {
                     return(
                         <Grid.Column key={i}>
-                            <Card>
+                            <Card link>
                                 <Card.Content>
                                     <Card.Header>{planets.name}</Card.Header>
                                     <Card.Description>
-                                        <strong>Height</strong>
-                                        <p>{planets.height}</p>
-                                        <strong>Mass</strong>
-                                        <p>{planets.mass}</p>
-                                        <strong>Hair Color</strong>
-                                        <p>{planets.hair_color}</p>
-                                        <strong>Height</strong>
-                                        <p>{planets.height}</p>
-                                        <strong>Homeworld</strong>
-                                        <p>{planets.homeworld_name}</p>
+                                        <strong>Diameter</strong>
+                                        <p>{planets.diameter}</p>
+                                        <strong>Rotation Period</strong>
+                                        <p>{planets.rotation_period}</p>
+                                        <strong>Orbital Period</strong>
+                                        <p>{planets.orbital_period}</p>
+                                        <strong>Population</strong>
+                                        <p>{planets.population}</p>
+                                        <strong>Climate</strong>
+                                        <p>{planets.climate}</p>
+                                        <strong>Terrain</strong>
+                                        <p>{planets.terrain}</p>
                                     </Card.Description>
                                 </Card.Content>
                             </Card>

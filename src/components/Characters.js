@@ -18,8 +18,8 @@ export default function Characters({ data }) {
                                     <Card.Description>
                                         <strong>Gender</strong>
                                         <p>{characters.gender}</p>
-                                        <strong>Mass</strong>
-                                        <p>{characters.mass}</p>
+                                        <strong>Birth Year</strong>
+                                        <p>{characters.birth_year}</p>
                                         <strong>Hair Color</strong>
                                         <p>{characters.hair_color}</p>
                                         <strong>Height</strong>
